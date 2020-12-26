@@ -40,23 +40,23 @@
 		    <groupId>hsqldb</groupId>
 		    <artifactId>hsqldb</artifactId>
 		    <!-- <scope>runtime</scope> -->
-		</dependency> 
+		</dependency>
 		<dependency>
 		    <groupId>postgresql</groupId>
 		    <artifactId>postgresql</artifactId>
 		    <version>8.3-603.jdbc3</version>
 		    <!-- <scope>runtime</scope> -->
-		</dependency> 
+		</dependency>
 		<dependency>
 		    <groupId>com.h2database</groupId>
 		    <artifactId>h2</artifactId>
 		    <!-- <scope>runtime</scope> -->
-		</dependency> 
+		</dependency>
 		<dependency>
 		    <groupId>org.apache.derby</groupId>
 		    <artifactId>derby</artifactId>
 		    <!-- <scope>runtime</scope> -->
-		</dependency> 
+		</dependency>
 		<dependency>
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
@@ -68,14 +68,14 @@
 		    <artifactId>mssql-jdbc</artifactId>
 		    <version>7.0.0.jre8</version>
 		</dependency>
-		<!-- ojdbc 
+		<!-- ojdbc
 		<dependency>
 		    <groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.3.0</version>
 		</dependency>
-		-->  
-		
+		-->
+
 	</dependencies>
 	<build>
 		<plugins>
@@ -85,7 +85,7 @@
 				<version>1.1.1</version>
 				<configuration>
 					<!-- <classpathScope>runtime</classpathScope> -->
-					<mainClass>org.apache.empire.samples.db.SampleApp</mainClass>		
+					<mainClass>org.apache.empire.samples.db.SampleApp</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
